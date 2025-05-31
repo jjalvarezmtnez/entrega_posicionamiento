@@ -1,0 +1,72 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --border-dash: 1px dashed #9ad79b; /* variable del borde de los elementos */
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #9ad79b;
+}
+
+header {
+  border: var(--border-dash);
+  background-color: #000000;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  position: fixed;
+  z-index: 2;
+}
+
+.content {
+  border: var(--border-dash);
+  width: 100%;
+  padding: 0.5rem 1rem;
+  position: relative;
+  top: 70px;
+  z-index: 1;
+  background-color: #000000;
+}
+
+.sidebar {
+  border: var(--border-dash);
+  padding: 0.5rem 1.5rem;
+  width: 15%;
+  position: absolute;
+  right: 25px;
+  top: 180px;
+  z-index: 1;
+  background-color: #000000;
+}
+
+.features {
+  border: var(--border-dash);
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 280px;
+  z-index: 1;
+  background-color: #000000;
+}
+
+footer {
+  border: var(--border-dash);
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  bottom: 10px;
+  background-color: #000000;
+  z-index: 0;
+}
